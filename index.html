@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Toastmaster Timer</title>
+		<script
+			src="main.js"
+			defer
+		></script>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				margin: 0;
+			}
+			.hidden {
+				display: none;
+			}
+			button {
+				padding: 1rem 2rem;
+				font-size: 3rem;
+			}
+			h1 {
+				font-size: 5rem;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="start-button">Start</button>
+		<h1
+			class="hidden"
+			id="display"
+		>
+			0:00
+		</h1>
+	</body>
+</html>
